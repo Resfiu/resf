@@ -15,6 +15,8 @@ export const Item = ({
       const element = document.getElementById(href.replace('/', '').replace('#', ''));
       if (element) {
         element.scrollIntoView({ behavior: 'smooth' });
+      } else {
+        window.location.href = href;
       }
     },
     [href],
