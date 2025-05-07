@@ -4,7 +4,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 
 export const GREETINGS = [
-  { text: 'Hola', language: 'Spanish' },
+  { text: 'Merhaba', language: 'Turkey' },
   { text: 'नमस्ते', language: 'Hindi' },
   { text: 'Ciao', language: 'Italian' },
   { text: '你好', language: 'Chinese' },

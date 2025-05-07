@@ -28,31 +28,15 @@ const Hero: React.FC = () => {
         style={{ transform: `scale(${scale})` }}
       >
         <p className="mb-4 text-4xl sm:text-5xl md:text-6xl">
-          Hey, I&apos;m <span className="underline">Noah</span>
+          Selam, Ben <span className="underline">Şeref</span>
         </p>
-        <p className="mb-8 text-5xl font-bold sm:text-7xl md:text-9xl">Software Engineer</p>
+        <p className="mb-8 text-5xl font-bold sm:text-7xl md:text-9xl">Genç Yazılımcı</p>
         <p className="mx-auto mb-8 max-w-2xl text-xl opacity-80 sm:text-2xl">
-          I build stuff and I love doing so :{')'}
+           :{')'}
         </p>
 
-        <div className="flex space-x-4">
-          {HERO_LINKS.map((link, index) => (
-            <Link
-              key={index}
-              href={link.src}
-              target={link.src === '/resume' ? undefined : '_blank'}
-              className="rounded-xl border border-[#d1d1d1] bg-[#EEECEC] p-3 text-[#494949] transition-all duration-300 hover:scale-110 hover:bg-opacity-80"
-            >
-              {link.icon}
-            </Link>
-          ))}
-        </div>
-
-        <div className="mt-8">
-          <Link href="https://github.com/NoahGdev/Next-Portfolio" className="text-2xl font-bold hover:underline">
-            Source Code <GrFormNextLink className="inline" />
-          </Link>
-        </div>
+        
+        
       </div>
 
       <div className="absolute bottom-8 flex flex-col items-center">

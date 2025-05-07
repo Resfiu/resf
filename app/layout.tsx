@@ -11,8 +11,8 @@ const hankenGrotesk = Hanken_Grotesk({
 });
 
 export const metadata: Metadata = {
-  title: 'Noah Gomes',
-  description: 'Welcome to my portfolio website, check out the source code if you like and leave a star :)',
+  title: 'Şeref Gül',
+  description: 'Web siteme hoş geldin',
 };
 
 export default function RootLayout({
