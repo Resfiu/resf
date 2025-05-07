@@ -73,7 +73,7 @@ export default function Resume() {
             <section className="mb-8">
               <h2 className="mb-4 border-b pb-2 text-xl font-semibold">Profil</h2>
               <p>
-              04 Ocak 2009 doğumluyum. Bilgisayar parçaları, siber güvenlik, yapay zeka ve oyun tasarımıyla ilgileniyorum. İngilizcemi geliştirerek gelecekte İngiltere veya ABD'de yaşamak istiyorum.
+              04 Ocak 2009 doğumluyum. Bilgisayar parçaları, siber güvenlik, yapay zeka ve oyun tasarımıyla ilgileniyorum. İngilizcemi geliştirerek gelecekte İngiltere veya ABD dde yaşamak istiyorum.
               </p>
             </section>
             <section className="mb-8">
